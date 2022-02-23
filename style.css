@@ -1,0 +1,65 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+}
+.target-color{
+    color: #FF6347;
+}
+#inshallah-color{
+    color: violet;
+}
+#head-border-image{
+
+    padding: 15px;
+    height:140px;
+    width:280px;
+    border-left: 5px solid ;
+ 
+    border-image: linear-gradient(rgb(100, 173, 221),rgb(37, 67, 133)) 10;
+    border-image-slice: 1;
+    
+    
+
+}
+#head-border-image h1{
+    font-size: 40px;
+}
+.anchor-button{
+  text-decoration: none;
+  background-image:linear-gradient(LightPink,tomato);
+  color: white;
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 5px;
+
+}
+.half-part{
+    width:50%;
+    padding: 30px;
+    margin: 40px;
+        
+}
+.half-part img{
+    width:80%;
+   
+}
+.half-part p{
+    color: rgb(44, 44, 44);
+}
+.target-area{
+    display: flex;
+}
+.boxes-area{
+    display: flex;
+    
+    background-color: #FF6347;
+    
+}
+.goal-title{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box img{
+    
+    width: 80%;
+}
