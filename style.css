@@ -51,9 +51,8 @@ body{
 .boxes-area{
     display: flex;
     
-    background-color: #FF6347;
-    
 }
+
 .goal-title{
     padding-top: 10px;
     text-align: center;
@@ -62,4 +61,16 @@ body{
 .box img{
     
     width: 80%;
+}
+.box{
+    width:28%;
+    height:385px;
+    margin: 0 50px;
+    padding: 0 10px;
+    border: 1px;
+    border-radius: 10px; 
+    box-shadow: 5px 10px 8px #888888;
+}
+#box-two{
+    
 }
