@@ -4,9 +4,9 @@ body{
 .target-color{
     color: #FF6347;
 }
-#inshallah-color{
+.inshallah-color{
     color: rgb(21, 21, 75); 
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .half-part #head-border-image{
@@ -57,6 +57,18 @@ body{
     display: flex;
     
 }
+#box-one{
+    background-color: lightskyblue;
+    color:blue;
+}
+#box-two{
+    background-color: lightgray;
+    color: rgb(53, 52, 52);
+}
+#box-three{
+    background-color: lightcyan;
+    color: purple;
+}
 .boxes-area p{
     color: rgb(106, 103, 103);
 }
@@ -78,6 +90,25 @@ body{
     border: 1px;
     border-radius: 10px; 
     box-shadow: 5px 10px 8px #888888;
+}
+.fifth-part .extra-part{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px; 
+    border: 1px ridge;
+    
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+    line-height: 130%;
+}
+.extra-part img{
+    width: 60%;
+    
+}
+.extra-part .img-part{
+    padding-bottom: 200px;
 }
 .goal-title h1{
     color: rgb(21, 21, 75); 
@@ -113,4 +144,11 @@ body{
 
 .anchor-button:active{
     opacity:0.5;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
 }
